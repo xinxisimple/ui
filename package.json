@@ -4,10 +4,17 @@
   "version": "1.0.0",
   "author": "xinxisimple <xinxisimple@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/xinxisimple/ui",
   "//": "这个指 import custom-ui 的时候它会去检索的路径",
   "main": "dist/ui.js",
   "//": "发布开源因此需要将这个字段改为 false",
   "private": false,
+  "keywords": [
+    "ui",
+    "vue",
+    "npm",
+    "packages"
+  ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
